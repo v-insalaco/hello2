@@ -5,10 +5,12 @@
 
 2
 git config --global user.name "My name"
+
 git config --global user.email "@gmail.com"
 
 3
 git init
+
 git add .
 
 4
