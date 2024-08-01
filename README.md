@@ -5,7 +5,7 @@
 
 2
 git config --global user.name "My name"
-git config --global user.email "o@gmail.com"
+git config --global user.email "@gmail.com"
 
 3
 git init
@@ -15,7 +15,6 @@ git add .
 git commit -m "Initial commit"
 
 5
-Create a New Repository on GitHub. 
 git remote add origin YOUR_REPOSITORY_URL
 
 6
