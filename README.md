@@ -1,2 +1,22 @@
 # new-world
-Added a quick python file
+
+1
+.nameofyourvenv/Scripts/activate
+
+2
+git config --global user.name "My name"
+git config --global user.email "o@gmail.com"
+
+3
+git init
+git add .
+
+4
+git commit -m "Initial commit"
+
+5
+Create a New Repository on GitHub. 
+git remote add origin YOUR_REPOSITORY_URL
+
+6
+git push -u origin master
