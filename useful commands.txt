@@ -1,0 +1,52 @@
+PS C:\Users\insalacv\Downloads\testpy> .testenv/Scripts/activate
+
+
+
+git config --global user.name "Vittorio Insalaco"
+git config --global user.email "vittorio.insalaco@gmail.com"
+
+
+2. Configure Git (if you haven't already)
+Open a terminal (in VS Code or your system's terminal) and set up your user name and email address with Git, as these will be associated with your commits:
+
+git init
+and press Enter. This command creates a new Git repository in your project directory.
+4. Add Your Project Files to the Repository
+Still in the terminal, add your project files to the repository by running:
+
+git add .
+This command stages all your files for commit. If you want to add specific files, replace
+.
+with the file names.
+
+Commit the added files to your repository:
+
+git commit -m "Initial commit"
+5. Create a New Repository on GitHub
+Go to GitHub.com and log in.
+Click the "+" icon in the top-right corner and select "New repository."
+Name your repository, add a description (optional), and choose whether the repository will be public or private.
+Click "Create repository."
+6. Link Your Local Repository to GitHub
+After creating the new repository on GitHub, you'll be taken to a page with a quick setup section including a URL. Copy that URL.
+
+Back in the VS Code terminal, link your local repository to GitHub with:
+
+git remote add origin YOUR_REPOSITORY_URL
+Replace
+YOUR_REPOSITORY_URL
+with the URL you just copied from GitHub.
+
+7. Push Your Code to GitHub
+Now, push your code from your local repository to GitHub with:
+
+git push -u origin master
+
+8. Sync Future Changes
+Stage the changes:
+git add .
+(or specific files)
+Commit the changes:
+git commit -m "Description of changes"
+Push the changes to GitHub:
+git push
