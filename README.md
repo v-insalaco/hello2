@@ -20,4 +20,6 @@ git commit -m "Initial commit"
 git remote add origin YOUR_REPOSITORY_URL
 
 6
-git push -u origin master
+first time - git push -u origin master
+
+Usually - git push
