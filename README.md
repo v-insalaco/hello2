@@ -16,7 +16,7 @@ run `git config --global user.email "@gmail.com"`
 
 ### 3. Initiate and ready Git
 
-run `git init` to start git
+run `git init` to start git on your terminal
 
 Make sure your `.gitignore` file is ignoring the .venvname for all the dependency files, and .env if you're using credentials etc.
 
@@ -43,6 +43,8 @@ Run `python -m venv .[venvname]`; venvname being your choice of environment name
 Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name.
 
 With your virtual environment running:
+
+run `git init`
 
 run `git add .`
 
