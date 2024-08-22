@@ -6,6 +6,8 @@ This readme will help you push a repository to your online Github Repository.
 
 Run `python -m venv .[venvname]`; venvname being your choice of environment name.
 
+If you've already files in your folder, make sure your `.gitignore` file is ignoring the .venvname for all the dependency files, and .env if you're using credentials.
+
 Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name.
 
 ### 2. Configure Git
