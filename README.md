@@ -52,7 +52,7 @@ run `git init`
 
 run `git add .`
 
-run `git commit -m "IMessage to document changes made"`
+run `git commit -m "Message to document changes made"`
 
 run `git push -u origin master` to push the first time of the session.
 
